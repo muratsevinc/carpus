@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\Lenovo ThinkPad\\AndroidStudioProjects\\Carpus\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_about_us.xml",
+        "source": "C:\\Users\\Lenovo ThinkPad\\AndroidStudioProjects\\Carpus\\app\\src\\main\\res\\layout\\activity_about_us.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo ThinkPad\\AndroidStudioProjects\\Carpus\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main_menu.xml",
+        "source": "C:\\Users\\Lenovo ThinkPad\\AndroidStudioProjects\\Carpus\\app\\src\\main\\res\\layout\\activity_main_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo ThinkPad\\AndroidStudioProjects\\Carpus\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Lenovo ThinkPad\\AndroidStudioProjects\\Carpus\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo ThinkPad\\AndroidStudioProjects\\Carpus\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_signup.xml",
+        "source": "C:\\Users\\Lenovo ThinkPad\\AndroidStudioProjects\\Carpus\\app\\src\\main\\res\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo ThinkPad\\AndroidStudioProjects\\Carpus\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Lenovo ThinkPad\\AndroidStudioProjects\\Carpus\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo ThinkPad\\AndroidStudioProjects\\Carpus\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_maps.xml",
+        "source": "C:\\Users\\Lenovo ThinkPad\\AndroidStudioProjects\\Carpus\\app\\src\\main\\res\\layout\\activity_maps.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo ThinkPad\\AndroidStudioProjects\\Carpus\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_help.xml",
+        "source": "C:\\Users\\Lenovo ThinkPad\\AndroidStudioProjects\\Carpus\\app\\src\\main\\res\\layout\\activity_help.xml"
+    }
+]

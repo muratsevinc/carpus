@@ -1,0 +1,42 @@
+com/carpus/app/databinding/ActivityMapsBinding.java
+ com.carpus.app.databinding.ActivityMapsBinding
+com/carpus/app/databinding/ActivityMainBinding.java
+ com.carpus.app.databinding.ActivityMainBinding
+com/carpus/app/databinding/ActivityLoginBinding.java
+ com.carpus.app.databinding.ActivityLoginBinding
+com/carpus/app/databinding/ActivityHelpBinding.java
+ com.carpus.app.databinding.ActivityHelpBinding
+com/carpus/app/databinding/ActivityAboutUsBinding.java
+ com.carpus.app.databinding.ActivityAboutUsBinding
+com/carpus/app/databinding/ActivitySignupBinding.java
+ com.carpus.app.databinding.ActivitySignupBinding
+com/carpus/app/BuildConfig.java
+ com.carpus.app.BuildConfig
+com/carpus/app/MapsActivity.java
+ com.carpus.app.MapsActivity
+com/carpus/app/databinding/ActivityMainMenuBinding.java
+ com.carpus.app.databinding.ActivityMainMenuBinding
+com/carpus/app/AboutUsActivity.java
+ com.carpus.app.AboutUsActivity
+ com.carpus.app.AboutUsActivity$1
+com/carpus/app/MainMenuActivity.java
+ com.carpus.app.MainMenuActivity
+ com.carpus.app.MainMenuActivity$1
+com/carpus/app/LoginActivity.java
+ com.carpus.app.LoginActivity
+ com.carpus.app.LoginActivity$1
+ com.carpus.app.LoginActivity$2
+com/carpus/app/SignupActivity.java
+ com.carpus.app.SignupActivity
+ com.carpus.app.SignupActivity$1
+ com.carpus.app.SignupActivity$2
+com/carpus/app/HelpActivity.java
+ com.carpus.app.HelpActivity
+ com.carpus.app.HelpActivity$1
+com/carpus/app/MainActivity.java
+ com.carpus.app.MainActivity
+ com.carpus.app.MainActivity$1
+ com.carpus.app.MainActivity$2
+ com.carpus.app.MainActivity$3
+ com.carpus.app.MainActivity$4
+ com.carpus.app.MainActivity$5

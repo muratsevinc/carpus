@@ -1,0 +1,180 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.carpus.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the "MyLocation" functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:9:5-79
+15-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:9:22-76
+16
+17    <!-- Include required permissions for Google Maps API to run. -->
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.gms:play-services-maps:18.0.1] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\c14dba5edf88df814e318dcbd7f96049\transformed\jetified-play-services-maps-18.0.1\AndroidManifest.xml:23:5-79
+18-->[com.google.android.gms:play-services-maps:18.0.1] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\c14dba5edf88df814e318dcbd7f96049\transformed\jetified-play-services-maps-18.0.1\AndroidManifest.xml:23:22-76
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[com.google.android.gms:play-services-maps:18.0.1] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\c14dba5edf88df814e318dcbd7f96049\transformed\jetified-play-services-maps-18.0.1\AndroidManifest.xml:24:5-67
+19-->[com.google.android.gms:play-services-maps:18.0.1] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\c14dba5edf88df814e318dcbd7f96049\transformed\jetified-play-services-maps-18.0.1\AndroidManifest.xml:24:22-64
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:18.0.1] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\c14dba5edf88df814e318dcbd7f96049\transformed\jetified-play-services-maps-18.0.1\AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:18.0.1] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\c14dba5edf88df814e318dcbd7f96049\transformed\jetified-play-services-maps-18.0.1\AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:18.0.1] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\c14dba5edf88df814e318dcbd7f96049\transformed\jetified-play-services-maps-18.0.1\AndroidManifest.xml:28:9-32
+24
+25    <queries>
+25-->[com.google.android.gms:play-services-maps:18.0.1] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\c14dba5edf88df814e318dcbd7f96049\transformed\jetified-play-services-maps-18.0.1\AndroidManifest.xml:30:5-34:15
+26
+27        <!-- Needs to be explicitly declared on Android R+ -->
+28        <package android:name="com.google.android.apps.maps" />
+28-->[com.google.android.gms:play-services-maps:18.0.1] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\c14dba5edf88df814e318dcbd7f96049\transformed\jetified-play-services-maps-18.0.1\AndroidManifest.xml:33:9-64
+28-->[com.google.android.gms:play-services-maps:18.0.1] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\c14dba5edf88df814e318dcbd7f96049\transformed\jetified-play-services-maps-18.0.1\AndroidManifest.xml:33:18-61
+29    </queries>
+30
+31    <application
+31-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:11:5-58:19
+32        android:allowBackup="true"
+32-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:12:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.7.0] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\9339927e08badd09bc5459e4ba900d5f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:13:9-43
+36        android:label="@string/app_name"
+36-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:14:9-41
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:15:9-54
+38        android:supportsRtl="true"
+38-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:16:9-35
+39        android:testOnly="true"
+40        android:theme="@style/Theme.Carpus" >
+40-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:17:9-44
+41        <activity
+41-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:18:9-20:40
+42            android:name="com.carpus.app.AboutUsActivity"
+42-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:19:13-44
+43            android:exported="false" />
+43-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:20:13-37
+44        <activity
+44-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:21:9-23:40
+45            android:name="com.carpus.app.MainMenuActivity"
+45-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:22:13-45
+46            android:exported="false" />
+46-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:23:13-37
+47        <activity
+47-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:24:9-26:40
+48            android:name="com.carpus.app.SignupActivity"
+48-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:25:13-43
+49            android:exported="false" />
+49-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:26:13-37
+50        <activity
+50-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:27:9-29:40
+51            android:name="com.carpus.app.LoginActivity"
+51-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:28:13-42
+52            android:exported="false" />
+52-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:29:13-37
+53        <!--
+54             The API key for Google Maps-based APIs is defined as a string resource.
+55             (See the file "res/values/google_maps_api.xml").
+56             Note that the API key is linked to the encryption key used to sign the APK.
+57             You need a different API key for each encryption key, including the release key that is used to
+58             sign the APK for publishing.
+59             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+60        -->
+61        <meta-data
+61-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:38:9-40:55
+62            android:name="com.google.android.geo.API_KEY"
+62-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:39:13-58
+63            android:value="@string/google_maps_key" />
+63-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:40:13-52
+64
+65        <activity
+65-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:42:9-45:59
+66            android:name="com.carpus.app.MapsActivity"
+66-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:43:13-41
+67            android:exported="false"
+67-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:44:13-37
+68            android:label="@string/title_activity_maps" />
+68-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:45:13-56
+69        <activity
+69-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:46:9-48:40
+70            android:name="com.carpus.app.HelpActivity"
+70-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:47:13-41
+71            android:exported="false" />
+71-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:48:13-37
+72        <activity
+72-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:49:9-57:20
+73            android:name="com.carpus.app.MainActivity"
+73-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:50:13-41
+74            android:exported="true" >
+74-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:51:13-36
+75            <intent-filter>
+75-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:52:13-56:29
+76                <action android:name="android.intent.action.MAIN" />
+76-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:53:17-69
+76-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:53:25-66
+77
+78                <category android:name="android.intent.category.LAUNCHER" />
+78-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:55:17-77
+78-->C:\Users\Lenovo ThinkPad\AndroidStudioProjects\Carpus\app\src\main\AndroidManifest.xml:55:27-74
+79            </intent-filter>
+80        </activity>
+81        <!-- Needs to be explicitly declared on P+ -->
+82        <uses-library
+82-->[com.google.android.gms:play-services-maps:18.0.1] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\c14dba5edf88df814e318dcbd7f96049\transformed\jetified-play-services-maps-18.0.1\AndroidManifest.xml:39:9-41:40
+83            android:name="org.apache.http.legacy"
+83-->[com.google.android.gms:play-services-maps:18.0.1] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\c14dba5edf88df814e318dcbd7f96049\transformed\jetified-play-services-maps-18.0.1\AndroidManifest.xml:40:13-50
+84            android:required="false" />
+84-->[com.google.android.gms:play-services-maps:18.0.1] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\c14dba5edf88df814e318dcbd7f96049\transformed\jetified-play-services-maps-18.0.1\AndroidManifest.xml:41:13-37
+85
+86        <activity
+86-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\c247fbe16cfb168c5d8e079da1f8ee44\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:9-22:45
+87            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+87-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\c247fbe16cfb168c5d8e079da1f8ee44\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:19-85
+88            android:exported="false"
+88-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\c247fbe16cfb168c5d8e079da1f8ee44\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:22:19-43
+89            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+89-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\c247fbe16cfb168c5d8e079da1f8ee44\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:21:19-78
+90
+91        <meta-data
+91-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\e6d400ba5c8d05501ff6f03a459292e6\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+92            android:name="com.google.android.gms.version"
+92-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\e6d400ba5c8d05501ff6f03a459292e6\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+93            android:value="@integer/google_play_services_version" />
+93-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\e6d400ba5c8d05501ff6f03a459292e6\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+94
+95        <provider
+95-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+96            android:name="androidx.startup.InitializationProvider"
+96-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+97            android:authorities="com.carpus.app.androidx-startup"
+97-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+98            android:exported="false" >
+98-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+99            <meta-data
+99-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+100                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+100-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+101                android:value="androidx.startup" />
+101-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+102            <meta-data
+102-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+103                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+103-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+104                android:value="androidx.startup" />
+104-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Lenovo ThinkPad\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+105        </provider>
+106    </application>
+107
+108</manifest>
