@@ -1,31 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta name="description" content="Webpage description goes here" />
-  <meta charset="utf-8">
-  <title>CS 491 - Carpus</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
 </head>
 
-<body>
-  <p>All Project Reports will be uploaded here.<p>
-  <a href="https://muratsevinc.github.io/carpus/specReport.pdf">Project Specification Report</a>
-  <br></br>
-  <a href="https://muratsevinc.github.io/carpus/analysisReport.pdf">Project Analysis Report</a>
-  <br></br>
-  <a href="https://muratsevinc.github.io/carpus/hldReport.pdf">High-level Design Report</a>
-  <br></br>
-  <a href="https://muratsevinc.github.io/carpus/lld.pdf">Low-level Design Report</a>
-<div class="container">
-  
-</div>
-
-<script>
-</script>
-
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav">
+        <div class="container"><a class="navbar-brand" href="#page-top">Carpus</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto text-uppercase">
+                    <li class="nav-item"><a class="nav-link" href="#services">reports</a></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead" style="background-image:url('assets/img/header-bg.jpg');">
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in"><span>Welcome To Carpus!</span></div>
+                <div class="intro-heading text-uppercase"><span>car that goes to your campus</span></div><a class="btn btn-primary btn-xl text-uppercase" role="button" href="#services">see reports</a>
+            </div>
+        </div>
+    </header>
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-uppercase section-heading">Reports</h2>
+                    <h3 class="text-muted section-subheading">All Project Reports Can Be Found Here</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4"><span onClick="window.location.href='https://muratsevinc.github.io/carpus/specReport.pdf';" class="fa-stack fa-4x"><img src="assets/img/clipboard-image.png" width="80" height="95"></span>
+                    <h4 class="section-heading">Project Specification Report</h4>
+                </div>
+                <div class="col-md-4"><span onClick="window.location.href='https://muratsevinc.github.io/carpus/analysisReport.pdf';" class="fa-stack fa-4x"><img src="assets/img/clipboard-image.png" width="80" height="95"></span>
+                    <h4 class="section-heading">Project Analysis Report</h4>
+                </div>
+                <div class="col-md-4"><span onClick="window.location.href='https://muratsevinc.github.io/carpus/hldReport.pdf';" class="fa-stack fa-4x"><img src="assets/img/clipboard-image.png" width="80" height="95"></span>
+                    <h4 class="section-heading">High-level Design Report</h4>
+                    <p class="text-muted">&nbsp; &nbsp;</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4 offset-xl-2"><span onClick="window.location.href='https://muratsevinc.github.io/carpus/lld.pdf';"  class="fa-stack fa-4x"><img src="assets/img/clipboard-image.png" width="80" height="95"></span>
+                    <h4 class="section-heading">Low-level Design Report</h4>
+                    <p class="text-muted"></p>
+                </div>
+                <div class="col-md-4"><span onClick="window.location.href='https://muratsevinc.github.io/carpus/finalReport.pdf';"  class="fa-stack fa-4x"><img src="assets/img/clipboard-image.png" width="80" height="95"></span>
+                    <h4 class="section-heading">Final Report &amp; User Manual</h4>
+                    <p class="text-muted"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/agency.js"></script>
 </body>
+
 </html>
